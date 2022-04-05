@@ -31,10 +31,14 @@
               "src/apple-touch-icon.png",
               "src/robots.txt",
               "src/manifest.webmanifest",
+              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/main.scss"
+              "src/main.scss",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/assets/scss/black-dashboard.scss",
+              "src/assets/css/nucleo-icons.css"
             ],
             "scripts": []
           },
@@ -113,10 +117,7 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
