@@ -1,0 +1,9 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "projects": [
+    { "id": 1, "name": "some comment1", "input": "", "noOfDocument": 10, "lang": "English" },
+    { "id": 2, "name": "some comment2", "input": "", "noOfDocument": 10, "lang": "English" },
+    { "id": 3, "name": "some comment3", "input": "", "noOfDocument": 10, "lang": "English" }
+  ],
+  "profile": { "name": "typicode" }
+}
